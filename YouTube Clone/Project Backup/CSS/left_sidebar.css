@@ -1,0 +1,147 @@
+/* CONTAINER 3 */
+.left_sidebar {
+  position:fixed;
+  width:240px;
+  left:0;
+  bottom: 0;
+  top:56px;
+  max-height: calc(100vh - 56px); /* Set maximum height */
+  overflow-y: auto;
+  background-color: #181818;
+}
+
+.left_flex_section {
+  display: flex;
+  flex-direction: column;
+}
+/* LEFT SIDE CONTAINER 1 */
+.left_container_1 {
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 4px;
+}
+
+/* HOME BUTTON */
+.left_sidebar_home {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top:6px;
+  padding:10px 10px;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.8s , opacity 0.8s;
+}
+
+.left_sidebar_home:hover {
+  background-color: #3d3d3d;
+}
+
+.left_sidebar_home:active {
+  opacity: 0.8%;
+}
+
+
+
+#left_icon_1 {
+  margin-right: 30px;
+  margin-left: 2px;
+}
+.text_button {
+  margin-top:2px;
+  font-size: 16px;
+  color: rgb(255,255,255);
+  font-weight: 500;
+}
+
+/* CONFIGURATIONS OF DIFFERENT BUTTONS */
+.left_sidebar_button {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top:6px;
+  padding:10px 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0,0,0,0);
+  border-radius: 10px;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.8s , opacity 0.8s;
+}
+
+.left_sidebar_button:hover{
+  background-color: #3d3d3d;
+}
+
+.left_sidebar_button:active{
+  opacity: 0.8%;
+}
+
+.text {
+  color:rgb(255,255,255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 25px;
+}
+
+.text_2 { /* FASHION AND BEAUTY */
+  color:rgb(255,255,255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 18px;
+}
+
+/* LEFT SIDE CONTAINER 2 */
+.left_container_2 {
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+/* LEFT SIDE CONTAINER 3 */
+.left_container_3 {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.message {
+  color:rgb(255,255,255);
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:15px;
+  width:180px;
+}
+
+/* LEFT SIDE CONTAINER 4 */
+.left_container_4 {
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 56px); /* Set maximum height */
+  overflow-y: auto;
+}
+
+.explore {
+  color:rgb(255,255,255);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left:20px;
+  margin-top: 6px;
+}
+
+#mySvg path {
+  fill:white;
+  margin-left: -20px;
+}

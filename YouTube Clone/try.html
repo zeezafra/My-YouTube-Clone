@@ -1,0 +1,36 @@
+<html>
+  <button class="relative-button">Hover Me</button>
+</html>
+
+<style>
+  /* Style for the button */
+.relative-button {
+  position: relative; /* Set the button's position to relative */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the message */
+.relative-button::after {
+  content: "Hello"; /* Message to display */
+  position: absolute;
+  top: 100%; /* Position it below the button */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* Center it horizontally */
+  background-color: #3d3d3d;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0; /* Hide it initially */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show the message on hover */
+.relative-button:hover::after {
+  opacity: 1;
+}
+
+</style>
